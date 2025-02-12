@@ -1,0 +1,35 @@
+import:
+  - "~/.config/alacritty/rose-pine.yml"
+
+window:
+  opacity: 0.90
+  blur: true
+  
+  padding:
+    x: 0
+    y: 0
+
+  title: "Terminal"
+
+font:
+  normal:
+    family: "JetBrains Mono"
+    style: "Regular"
+  bold:
+    family: "JetBrains Mono"
+    style: "Bold"
+  italic:
+    family: "JetBrains Mono"
+    style: "Italic"
+  bold_italic:
+    family: "JetBrains Mono"
+    style: "BoldItalic"
+
+cursor:
+  style:
+    shape: Block
+    blinking: On
+  blink_interval: 500
+
+key_bindings:
+  - {key: F12, action: ToggleFullscreen}
